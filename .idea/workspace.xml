@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1d9349-f22c-49e0-be41-e254acdf8c8d" name="Changes" comment="standartize region fix">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back" beforeDir="false" afterPath="$PROJECT_DIR$/back" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/Http/Controllers/SudUchastokController.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/Http/Controllers/SudUchastokController.php" afterDir="false" />
-    </list>
+    <list default="true" id="8a1d9349-f22c-49e0-be41-e254acdf8c8d" name="Changes" comment="standartize region fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +245,7 @@
       <workItem from="1666040742217" duration="425000" />
       <workItem from="1666041168935" duration="600000" />
       <workItem from="1666041779292" duration="27000" />
-      <workItem from="1666041814653" duration="628000" />
+      <workItem from="1666041814653" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="standartize region fix">
       <created>1665691614446</created>
