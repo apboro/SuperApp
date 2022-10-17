@@ -1,0 +1,42 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Судебные Участки API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api": {},
+        "/api/cities": {
+            "get": {
+                "tags": [
+                    "cities"
+                ],
+                "summary": "Get cities with pagination",
+                "operationId": "6d9e012860896befd131311e158d83bd",
+                "requestBody": {
+                    "content": {
+                        "application/json": {}
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {},
+                                "examples": {
+                                    "result": {
+                                        "summary": "Результат запроса",
+                                        "value": {
+                                            "city": "Нижегородская обл, г Семенов, д Сутырь"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
