@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+	font-family: 'Golos';
+	src: url(./fonts/Golos.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GolosMedium';
+	src: url(./fonts/GolosMedium.ttf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GolosBold';
+	src: url(./fonts/GolosBold.ttf);
+	font-weight: 700;
+	font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	margin: 0 auto;
+	max-width: 1920px;
+	font-family: 'Golos';
+	font-size: 17px;
+	line-height: 20px;
+	color: #0039a6;
+}
+
+p {
+	margin: 0;
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+.textLink {
+	font-family: 'GolosMedium';
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.title {
+	margin: 0;
+	font-family: 'GolosBold';
+	font-size: 41px;
+	line-height: 60px;
+}
+
+.subtitle {
+	margin: 0;
+	font-family: 'GolosBold';
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.text {
+	margin: 0;
+	font-size: 17px;
+	line-height: 20px;
+	color: #002b7e;
+}
+
+.section {
+	margin: 0 0 45px;
 }

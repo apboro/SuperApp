@@ -1,0 +1,60 @@
+.btnMenu {
+	display: flex;
+	align-items: center;
+	height: 18px;
+	position: relative;
+}
+
+.btnMenu {
+	border-radius: 28px;
+}
+
+#menuToggle {
+	display: none;
+}
+.menuToggleLabel {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.burgerMenu,
+.burgerMenu::before,
+.burgerMenu::after {
+	display: block;
+	height: 2px;
+	width: 32px;
+	transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+	background-image: url(/src/img/burgerMenuLine.svg);
+	border-radius: 2px 0;
+	/* transform: skew(-25deg); */
+}
+.burgerMenu {
+	/* margin: 0 0 0 1vw; */
+	position: relative;
+}
+.burgerMenu::before {
+	content: '';
+	position: absolute;
+	/* right: 3px; */
+	bottom: 8px;
+}
+.burgerMenu::after {
+	content: '';
+	position: absolute;
+	/* left: 3px; */
+	top: 8px;
+}
+#menuToggle:checked ~ .burgerMenu::before {
+	bottom: 0;
+	transform: rotate(315deg);
+}
+#menuToggle:checked ~ .burgerMenu {
+	background: transparent;
+}
+#menuToggle:checked ~ .burgerMenu::after {
+	top: 0;
+	transform: rotate(-315deg);
+}

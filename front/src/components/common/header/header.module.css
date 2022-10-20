@@ -1,0 +1,68 @@
+.container {
+	margin: 0 0 90px;
+	display: grid;
+	grid-template-columns: 5fr 1fr 5fr;
+}
+
+.leftBlock,
+.rightBlock {
+	display: flex;
+	align-items: center;
+}
+.rightBlock {
+	justify-self: end;
+}
+
+.logo {
+	justify-self: center;
+}
+
+.searchContainer {
+	margin: 0 0 0 3vw;
+	position: relative;
+}
+.searchContainer::before,
+.searchContainer::after {
+	position: absolute;
+	display: block;
+	content: '';
+}
+.searchContainer::before {
+	width: 14px;
+	height: 14px;
+	top: 9px;
+	right: 16px;
+	border: 0.5px solid #0039a6;
+	border-radius: 50%;
+}
+.searchContainer::after {
+	width: 9px;
+	height: 1px;
+	top: 25px;
+	right: 12px;
+	border-top: 0.5px solid #0039a6;
+	transform: rotate(45deg);
+}
+.loupe {
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	top: 9px;
+	right: 12px;
+	cursor: pointer;
+}
+
+.search {
+	padding: 10px 65px 10px 12px;
+	border: 1px solid #0039a6;
+	border-radius: 8px;
+}
+
+.item {
+	margin: 0;
+}
+.item + .item {
+	margin: 0 0 0 2vw;
+	cursor: pointer;
+}
