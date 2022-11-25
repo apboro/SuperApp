@@ -17,6 +17,10 @@
 	font-style: normal;
 }
 
+/* .codex-editor__redactor {
+	padding-bottom: 0 !important;
+} */
+
 body {
 	margin: 0 auto;
 	max-width: 1920px;

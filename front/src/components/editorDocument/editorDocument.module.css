@@ -1,0 +1,28 @@
+.container {
+	padding: 10px;
+	border: 1px solid blue;
+}
+
+.editorContainer {
+	display: flex;
+}
+
+.editor {
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	border: 1px solid rgba(0, 0, 255, 0.425);
+	border-radius: 10px;
+}
+
+.editorMenu {
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	border: 1px solid rgba(0, 0, 255, 0.425);
+	border-radius: 10px;
+}

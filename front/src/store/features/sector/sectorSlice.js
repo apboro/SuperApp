@@ -7,8 +7,7 @@ export const getSectorList = createAsyncThunk(
 	'sectorList/getSectorList',
 	async (_, { rejectWithValue, dispatch }) => {
 		const res = await sectorListApi.getSectorList();
-
-		dispatch(setSectorList({ data: res.data }));
+		dispatch(setSectorList({ data: res.data.result }));
 	}
 );
 

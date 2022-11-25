@@ -1,0 +1,39 @@
+.editorBlock {
+	display: flex;
+}
+
+.editor {
+	padding: 10px;
+	min-height: 200px;
+	border: 1px solid #f1f1f1;
+}
+/* defaultClass .rdw-editor-main {height: 100%;} */
+.height {
+	height: auto !important;
+}
+.fieldListBlock {
+	margin: 0 0 0 30px;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	box-sizing: border-box;
+}
+
+.fieldListTitle {
+	margin: 0 0 20px;
+}
+
+.addFieldBlock {
+	margin: 0 0 10px;
+}
+
+.fieldContainer {
+	margin: 0 0 10px;
+}
+.fieldName {
+	margin: 0 10px 0 0;
+}
+
+.field {
+	color: red;
+	/* border-bottom: 1px solid black; */
+}
